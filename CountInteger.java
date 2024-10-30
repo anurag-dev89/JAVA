@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Count {
+public class CountInteger {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int positiveCount = 0;
