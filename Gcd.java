@@ -5,26 +5,26 @@ public class Gcd {
         Scanner scanner = new Scanner(System.in);
         
         // Input two numbers
-        System.out.print("Enter the value of a : ");
+        System.out.print("Enter the value of a: ");
         int a = scanner.nextInt();
 
-        System.out.print("Enter the value of b : ");
+        System.out.print("Enter the value of b: ");
         int b = scanner.nextInt();
 
         // Find and print GCD
-        System.out.println("The Gcd is: " + findGcd(a, b));
+        findGcd(a, b);
 
         scanner.close();
-    
     }
-       //function for finding gcd
-    public static int findGcd(int a, int b) {
+
+    // Function for finding GCD
+    public static void findGcd(int a, int b) {
         while (b != 0) {
             int temp = b;
-            b = a % b;
+            b = a % b; // Correctly calculating the new value of b
             a = temp;
         }
-        return a;
+        System.out.println("The GCD is: " + a);
     }
 }
 
