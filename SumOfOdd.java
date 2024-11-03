@@ -8,10 +8,12 @@ public class SumOfOdd {
         System.out.println("enter the value of n:");
         int n=sc.nextInt();
 
-        SumOfOdd(n);
+        Sum(n);
+        sc.close();
+
 
     }
-    public static void SumOfOdd(int n){
+    public static void Sum(int n){
         int sum=0;
 
         for(int i=1;i<=n;i++){

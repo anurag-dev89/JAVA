@@ -29,5 +29,7 @@ public class CountInteger {
         System.out.println("Count of positive numbers: " + positiveCount);
         System.out.println("Count of negative numbers: " + negativeCount);
         System.out.println("Count of zeros: " + zeroCount);
+
+        scanner.close();
     }
 }

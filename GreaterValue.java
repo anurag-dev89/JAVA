@@ -12,6 +12,8 @@ public class GreaterValue {
 
         greater(x,y);
 
+        sc.close();
+
     }
     public static void greater(int x , int y){
         if(x>y){

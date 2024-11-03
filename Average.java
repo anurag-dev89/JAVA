@@ -16,5 +16,7 @@ public class Average {
 
         double average = sum / n; // Calculate the average
         System.out.println("The average of the values is: " + average);
+
+        sc.close();
     }
 }
